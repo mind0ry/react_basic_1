@@ -3,13 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import App1 from './components/App1';
+//import FoodList from './components/FoodList';
+import RecipeList from './components/RecipeList';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <RecipeList />
   </React.StrictMode>
 );
 
